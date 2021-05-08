@@ -1,0 +1,52 @@
+.new-expense {
+  background-color: lightpink;
+  margin: 1.5rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  text-align: center;
+}
+
+.new-expense-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.new-expense-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense-control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-expense-control button {
+  font-size: 1em;
+  line-height: 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-left: 11rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  color: white;
+  background-color: rgb(133, 67, 67);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-expense-control button:hover {
+  cursor: pointer;
+  background-color: rgb(206, 173, 206);
+  color: black;
+}
