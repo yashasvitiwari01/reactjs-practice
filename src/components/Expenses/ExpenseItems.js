@@ -7,7 +7,7 @@ import React, { useState } from "react";
 
 import ExpenseDate from "./ExpenseDate";
 import "./ExpenseItems.css";
-import Card from "./Card";
+import Card from "../UI/Card";
 
 function ExpenseItems(props) {
   // a default initial value is passed to useState

@@ -1,7 +1,8 @@
 //import the component to be used
 
-import ExpensesList from "./components/ExpensesList";
+import ExpensesList from "./components/Expenses/ExpensesList";
 import { useState } from "react";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   // random example to increase count
@@ -34,7 +35,7 @@ function App() {
   };
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <ExpensesList items={expenses} />
       <p> You clicked {count}</p>
       <button onClick={countHandler}>Click Me</button>
